@@ -41,7 +41,7 @@ function moveUp() {
   flySound.play();
 }
 
-addEventListener("click", (e) => {
+addEventListener("mousedown", (e) => {
   moveUp();
 });
 
